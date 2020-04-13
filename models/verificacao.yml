@@ -1,0 +1,16 @@
+version: 2
+
+models:
+  - name: pessoas
+    columns:
+      - name: id_pessoa
+        tests:
+          - unique
+          - not_null
+  - name: test
+    columns:
+      - name: id_pessoa
+        tests:
+          - unique
+          - not_null
+       
